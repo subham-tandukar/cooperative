@@ -1,0 +1,125 @@
+@media (max-width: 639.9px) {
+  .section-benefit {
+    .benefit-wrapper {
+      margin-bottom: 3rem;
+    }
+  }
+  .section-gallery .photo-btn {
+    top: 3% !important;
+    left: 47% !important;
+    transform: translateX(-47%) !important;
+  }
+  .section-gallery .video-btn {
+    top: 3% !important;
+    left: 60% !important;
+    transform: translateX(-60%) !important;
+  }
+  .main-content {
+    .news-wrapper {
+      width: 100% !important;
+    }
+  }
+  .bread-crumb {
+    .bread-crumb-content {
+      .bread-crumb-title {
+        h3 {
+          font-size: 16px;
+        }
+        img {
+          height: 35px !important;
+        }
+      }
+    }
+  }
+  .vacancy {
+    .img-border {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 679.9px) {
+  .head {
+    .head-icon {
+      margin: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 767.9px) {
+  .news-content {
+    .sidebar {
+      .sidebar-content {
+        flex-direction: column;
+        .category,
+        .latest-news,
+        .social-media {
+          width: 100% !important;
+          margin: 0 auto;
+        }
+        .latest-news {
+          margin-top: 1rem !important;
+        }
+        .social-media {
+          margin-top: 1rem !important;
+          margin-bottom: 1rem !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 936.9px) {
+  .hero-banner {
+    height: 363px;
+    background-attachment: initial;
+    background-position: center;
+  }
+}
+
+@media (max-width: 959.9px) {
+  .section-what-we-do .txt p {
+    line-height: 30px;
+    margin-top: 1rem;
+  }
+  footer .footer-wrapper .quick-links,
+  footer .footer-wrapper .contact-info {
+    margin-left: 0 !important;
+    margin-top: 2rem;
+  }
+  .section-gallery .photo-btn {
+    top: 10%;
+    left: 45%;
+    transform: translateX(-45%);
+  }
+  .section-gallery .video-btn {
+    top: 10%;
+    left: 55%;
+    transform: translateX(-55%);
+  }
+  .news-content {
+    .main-content {
+      .news-wrapper {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+    .sidebar {
+      position: static;
+
+      .sidebar-content {
+        display: flex;
+
+        .category,
+        .latest-news,
+        .social-media {
+          width: 33.3%;
+        }
+      }
+    }
+  }
+  .vacancy {
+    .img-border {
+      width: 50%;
+    }
+  }
+}
